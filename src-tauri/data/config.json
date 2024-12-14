@@ -65,7 +65,7 @@
             }
         },
         "security": {
-            "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' asset://localhost data:; font-src 'self' asset://localhost data:; asset: https://asset.localhost"
+            "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' asset://localhost data:; font-src 'self' asset://localhost data:; asset: https://asset.localhost; download-src 'self' asset://localhost data:"
         },
         "bundle": {
             "active": true,
