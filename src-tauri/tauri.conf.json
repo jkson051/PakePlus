@@ -1,6 +1,6 @@
 {
     "package": {
-        "productName": "openai pro",
+        "productName": "openaipro",
         "version": "1.0.0"
     },
     "tauri": {
@@ -69,7 +69,7 @@
         },
         "bundle": {
             "active": true,
-            "targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
+            "targets": "all",
             "identifier": "com.openaipro.chat",
             "icon": [
                 "icons/32x32.png",
