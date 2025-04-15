@@ -84,7 +84,7 @@ jobs:
               with:
                   tagName: 'test'
                   releaseName: 'test v__VERSION__'
-                  releaseBody: '88'
+                  releaseBody: '测试'
                   releaseDraft: false
                   prerelease: false
                   publish: true
